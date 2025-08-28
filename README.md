@@ -1,13 +1,12 @@
 # Expense Reports Sync 📝
 
-Automate the process of uploading employee expense reports from Excel files to Google Sheets for tracking and integration with AppSheet.
+Automate the process of importing data from Excel files to Google Sheets for tracking and integration with AppSheet.
 
 ---
 
 ## Features
 
-- Automatically reads Excel expense reports from a local folder.
-- Processes mileage, meals, lodging, other expenses, and totals.
+- Automatically reads Excel files.
 - Generates unique IDs for each entry.
 - Uploads entries to a Google Sheet, merging with existing data.
 - Skips temporary Excel files (e.g., `~$` files).
@@ -29,19 +28,17 @@ Automate the process of uploading employee expense reports from Excel files to G
 
 1. Clone the repository:
 
-   git clone https://github.com/yourusername/expense-reports-sync.git
+   git clone https://github.com/DiegoCAntunes/excel-sheets-integration
    cd expense-reports-sync
 
 2. Create a `.env` file in the project root with your settings:
 
-   PERSON_NAME="Diego Cazetta Antunes"
-   GOOGLE_SHEET_NAME="Copy of ExpenseDB_2025-08-08"
-   GOOGLE_TAB_NAME="ExpenseEntries"
-   EXCEL_FOLDER="G:\\Documents\\DITANU INC\\Projects\\250001 - Appsheet\\Expense Reports\\Diego Cazetta Antunes"
+   PERSON_NAME="PersonName for column"
+   GOOGLE_SHEET_NAME="SheetName"
+   GOOGLE_TAB_NAME="tabName"
+   EXCEL_FOLDER="path\\to\\excel\files"
 
 > Use double backslashes `\\` in Windows paths.
-
-3. Ensure your Excel files start their table headers on the correct row (default: row 9).
 
 ---
 
