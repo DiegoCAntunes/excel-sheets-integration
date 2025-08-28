@@ -1,0 +1,11 @@
+pandas
+numpy
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+gspread
+gspread-dataframe
+openpyxl
+tqdm
+python-dotenv
